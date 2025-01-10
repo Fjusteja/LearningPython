@@ -20,4 +20,4 @@ print(f"BB ideal anda antara "
       f"{BBI['Min']:.2f} dan {BBI['Max']:.2f} ")
 time.sleep(1)
 print("Terima Kasih ^_^b")
-time.sleep(5)
+time.sleep(6)
