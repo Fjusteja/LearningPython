@@ -8,6 +8,16 @@ TB = input("Masukan TB anda (Meter) : ")
 TB = float(TB)
 print("---------------------------------")
 BMI = BB/(TB**2)
+
+if BMI < 18.5:
+      kategori = "Anda kurang BB"
+elif BMI < 25:
+      kategori = "BMI Normal"
+elif BMI < 25:
+      kategori = "Anda over BB"
+else:
+      kategori = "Anda Obese"
+
 print (f"BMI anda = {BMI:.2f} kg/m^2")
 time.sleep(1)
 print("BMI normal antara 18.5 - 25 kg/m^2")
@@ -20,4 +30,4 @@ print(f"BB ideal anda antara "
       f"{BBI['Min']:.2f} dan {BBI['Max']:.2f} ")
 time.sleep(1)
 print("Terima Kasih ^_^b")
-time.sleep(3)
+time.sleep(6)
